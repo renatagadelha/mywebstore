@@ -1,0 +1,41 @@
+.navbar{
+    background: #dedcdc;
+}
+.navbar-nav{
+    justify-content: between;
+}
+.icon {
+	margin-bottom: 2px;
+	display: inline-block;
+	-webkit-transition-duration: 500ms;
+    -moz-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+.icon.icon-login{
+	width: 35px;
+	padding-right: 5px;
+	opacity: 0.8;
+}
+
+.product {
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+.product .product-image {
+    height: 150px;
+}
+.product-price {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.product-code {
+    font-size: 0.8em;
+}
+#ec-button {
+    cursor: pointer;
+}
