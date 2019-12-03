@@ -1,6 +1,6 @@
 <?php
     // Include and initialize database class
-    include 'DB.class.php';
+    include 'database/DB.class.php';
     $db = new DB;
 
     // Get all products
